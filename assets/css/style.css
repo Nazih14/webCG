@@ -78,13 +78,13 @@ section{
 
 
 .scroll-top-wrapper {
-    position: fixed;
+	position: fixed;
 	opacity: 0;
 	visibility: hidden;
 	overflow: hidden;
 	text-align: center;
 	z-index: 99999999;
-    background-color: #777777;
+	background-color: #777777;
 	color: #eeeeee;
 	width: 50px;
 	height: 48px;
@@ -106,8 +106,8 @@ section{
 	background-color: #888888;
 }
 .scroll-top-wrapper.show {
-    visibility:visible;
-    cursor:pointer;
+	visibility:visible;
+	cursor:pointer;
 	opacity: 1.0;
 }
 .scroll-top-wrapper i.fa {
@@ -611,3 +611,178 @@ section{
 			margin-bottom: 60px;
 		}
 	}
+
+	.navbar-inverse {
+		border-radius: 0px;
+		border-bottom: 1px solid #212121;
+	}
+
+
+
+	.callout-light {
+		padding: 30px;
+		color: #000;
+		background-color: #ccc;
+	}
+
+	.callout-light h1,
+	h2,
+	h3,
+	h4 {
+		font-weight: 300;
+		line-height: 1.4;
+	}
+
+	.callout-dark {
+		padding: 30px;
+		color: #fff;
+		background-image: url('../images/4.png');
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		height: auto;
+		padding-bottom: 80px;
+		position: relative;
+		width: 100%;
+
+	}
+
+	.callout-dark h1,
+	h2,
+	h3,
+	h4 {
+		color: #333;
+		font-weight: 300;
+		line-height: 1.4;
+	}
+
+	.callout-dark p {
+		color: #B1B1B1;
+		font-size: 17px;
+	}
+
+	.callout-mage {
+		padding: 30px;
+		background-color: #743C58;
+		color: #fff;
+	}
+
+	.callout-bubble {
+		padding: 30px;
+		color: #fff;
+		background-color: #A94545;
+	}
+
+	.callout-bubble h1,
+	h2,
+	h3,
+	h4 {
+		font-weight: 300;
+		line-height: 1.4;
+	}
+
+	.callout-block {
+		background-color: #F5F3F4;
+		border-left: 5px solid #a94545;
+		border-right: 5px solid #a94545;
+		padding: 15px;
+	}
+
+	.callout-block h1,
+	.callout-block h2,
+	.callout-block h3,
+	.callout-block h4 {
+		font-weight: 300;
+		line-height: 1.4;
+	}
+
+
+	.main-page{
+    max-width:1000px;
+    margin:0 auto;
+}
+.container{
+    max-width:1000px;
+    margin:0 auto;
+}
+/* ------ top-nav ------ */
+.top-nav{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+/* ------ main-banner ------ */
+.main-banner{
+    margin-bottom:20px;
+}
+
+/* ------ page ------ */
+.page{
+    background-color:#fff;
+    padding:20px 15px;
+    margin-bottom:20px;
+}
+.page h3{
+    font-size:22px;
+    margin-bottom:12px;
+}
+.page p{
+    font-size:17px;
+    font-weight:500;
+}
+.page .details ul{
+    list-style: none;
+    padding-left: 0px;
+    margin-bottom:18px;
+}
+.page .details ul li{
+   float:left;
+   padding-right:15px;
+   font-size: 13px;
+   font-weight: 600;
+}
+.page .details ul li:last-child {
+  float: inherit;
+}
+.page h4{
+    font-size:13px;
+    font-weight:600;
+}
+/* ------ wedgets ------ */
+.widgets{
+    background-color:#fff;
+    padding:20px 15px;
+    margin-bottom:20px;
+}
+.widgets h3{
+    padding-bottom:10px;
+    font-size:20px;
+    margin-bottom:15px;
+    border-bottom:1px solid #eaeaea;
+}
+.widgets ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.widgets ul li{
+    font-weight: 600;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.widgets h4{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0.3px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.gallery
+{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+    
+
